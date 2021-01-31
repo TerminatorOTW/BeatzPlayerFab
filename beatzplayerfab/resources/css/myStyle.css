@@ -1,0 +1,213 @@
+
+/* Developed by The TerminatorOTW */
+
+.mainLayout {
+    -fx-background-color: #313131;
+    -fx-border-color: rgb(29, 114, 184);
+    -fx-border-radius: 0 0 0 0;
+    -fx-background-radius: 0 0 0 0;
+    -fx-border-width: 1px;
+}
+
+.mainLayout .menuBar {
+    -fx-padding: 0px;
+    -fx-background-color: #515151;
+}
+
+.mainLayout .menuBar .menu {
+    -fx-padding: 4 4 4 4;
+    -fx-background-color: transparent;
+}
+
+.mainLayout .menuBar .menu:hover,
+.mainLayout .menuBar .menu:showing {
+    -fx-background-color: #414141;
+}
+
+.mainLayout .menuBar .menu:hover .label,
+.mainLayout .menuBar .menu:showing .label {
+    -fx-text-fill: #ddd;
+}
+
+.mainLayout .menuBar .menu .label {
+    -fx-font-family: "Comic Sans Ms";
+    -fx-font-size: 13px;
+    -fx-text-fill: #ccc;
+}
+
+.mainLayout .menuBar .menu .context-menu {
+    -fx-padding: 0px;
+}
+
+.mainLayout .menuBar .menu .menu-item {
+    -fx-background-color: #414141;
+    -fx-padding: 10 5 2 10;
+}
+
+.mainLayout .menuBar .menu .menu-item .label {
+    -fx-font-family: "Comic Sans Ms";
+    -fx-text-fill: #ccc;
+    -fx-font-size: 12px;
+    -fx-padding: 0 10 0 0;
+}
+
+.mainLayout .menuBar .menu .menu-item:hover {
+    -fx-background-color: #515151;
+}
+
+.mainLayout .menuBar .menu .menu-item:hover .label {
+    -fx-text-fill: #ddd;
+}
+
+.mainLayout .menuBar .menu .check-menu-item .label {
+    -fx-padding: 0 10 0 5;
+}
+
+.mainLayout .top_bar {
+    -fx-padding: 0px;
+    -fx-background-color: #414141;
+}
+
+.mainLayout .top_bar .menu_icon {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border: none;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 5 10 5 10;
+}
+
+.mainLayout .top_bar .menu_icon:hover {
+    -fx-background-color: #212121;
+}
+
+.mainLayout .top_bar .label {
+    -fx-text-fill: #fff;
+    -fx-font-size: 14;
+    -fx-text-style: bold;
+    -fx-padding: 7 0 5 10;
+}
+
+.mainLayout .side_menu {
+    -fx-background-color: #212121;
+    -fx-padding: 0 0 0 0;
+}
+
+.mainLayout .side_menu .separator {
+    -fx-padding: 10 0 10 0;
+}
+
+.mainLayout .side_menu .separator .line {
+    -fx-border-color: #616161;
+}
+
+.mainLayout .side_menu .button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border: none;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 10 10 10 10;
+}
+
+.mainLayout .hideOpenBar {
+    -fx-background-color: transparent;
+}
+
+.mainLayout .aboutBar {
+    -fx-background-color: #414141;
+    -fx-background-radius: 0 0 0 0;
+}
+
+.mainLayout .playBar {
+    -fx-background-color: #414141;
+    -fx-background-radius: 0 0 0 0;
+}
+
+.mainLayout .aboutBar .label {
+    -fx-font-family: "Comic Sans Ms";
+    -fx-text-fill: #ddd;
+    -fx-font-size: 13px;
+    -fx-padding: 10 10 10 0;
+}
+
+.mainLayout .hideOpenBar .button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0 0 0 0;
+    -fx-border-color: none;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.mainLayout .aboutBar .button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-color: none;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 10 10 10 10;
+}
+
+.mainLayout .playBar .button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border: none;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 10 10 10 10;
+}
+
+.mainLayout .progressLayout {
+    -fx-background-color: #414141;
+}
+
+.mainLayout .label {
+    -fx-font-family: "Comic Sans Ms";
+    -fx-text-fill: #ccc;
+    -fx-font-size: 12px;
+    -fx-padding: 0 10 0 10;
+}
+
+.mainLayout .progressLayout .progressBar {
+    -fx-background-color: #414141;
+}
+
+.mainLayout .progressLayout .progressBar .axis {
+    -fx-background-color: transparent;
+}
+
+.mainLayout .progressLayout .progressBar .track {
+    -fx-background-color: #414141;
+    -fx-border-color: #616161;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 0px;
+}
+
+.mainLayout .progressLayout .progressBar .thumb {
+    -fx-background-color: #ccc;
+    -fx-background-radius: 15px;
+    -fx-border-color: #bbb;
+    -fx-border-width: 1px;
+    -fx-border-radius: 15px;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.mainLayout .minimizedLayout {
+    -fx-background-color: transparent;
+}
+
+.mainLayout .minimizedLayout .playLayout {
+    -fx-background-color: transparent;
+}
+
+.mainLayout .minimizedLayout .button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border: none;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 0 5 0 5;
+}
+
